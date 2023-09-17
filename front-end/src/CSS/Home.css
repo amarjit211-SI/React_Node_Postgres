@@ -1,0 +1,54 @@
+/* CSS */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This ensures it takes the full viewport height */
+}
+
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: flex-start; /* Align to the top */
+    padding: 10px;
+    height: 100%; /* Make the container take the full height */
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+   
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add background image */
+  body {
+    background-image: url('https://www.neom.com/content/dam/neom/newsroom/neom-beach-games/nbg-cover.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* This ensures the background covers the entire viewport */
+    margin: 0; /* Remove default margin */
+  }
+  
